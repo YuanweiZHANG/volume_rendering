@@ -6,7 +6,7 @@
 
 #include "camera.h"
 #include "glfwFunc.h"
-#include "openVDB.h"
+#include "io.h"
 #include "shader.h"
 
 #include <iostream>

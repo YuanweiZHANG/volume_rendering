@@ -54,7 +54,7 @@ add_executable(${PROJECT_NAME}
     ${EXTERNAL}/glad4/src/glad.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../include/camera.h
     ${CMAKE_CURRENT_SOURCE_DIR}/../include/glfwFunc.h
-    ${CMAKE_CURRENT_SOURCE_DIR}/../include/openVDB.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/../include/io.h
     ${CMAKE_CURRENT_SOURCE_DIR}/../include/shader.h
 )
 
