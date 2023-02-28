@@ -258,6 +258,7 @@ int main()
     // read smoke file and generate 3D texture
     int factor = 1;  // to make smoke brighter
     readGrid(pathSrc + "/vdb/smoke.vdb", "density", density);
+    // VDB2CSV(pathSrc + "/vdb/smoke.vdb", pathSrc + "/vdb/smoke.csv");
 
     unsigned int xMin = 0, xMax = 0, yMin = 0, yMax = 0, zMin = 0, zMax = 0;
     for (decltype(density.size()) i = 0; i < density.size() / 4; ++i)
